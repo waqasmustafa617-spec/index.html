@@ -3,49 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwiftPick | Premium Collection</title>
+    <title>SwiftPick | Premium Lifestyle</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; color: #333; }
-        header { background-color: #000; color: #ffd700; padding: 20px; text-align: center; }
-        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
-        .product-card { background: white; width: 160px; margin: 10px; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
-        .product-img { width: 100%; height: 120px; background-color: #ddd; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #777; }
-        .btn { display: block; background-color: #000; color: #ffd700; padding: 10px; text-decoration: none; border-radius: 5px; margin-top: 10px; font-weight: bold; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0d0d0d; color: #ffffff; margin: 0; padding: 0; }
+        
+        header { padding: 40px 20px; text-align: center; border-bottom: 2px solid #ffd700; }
+        header h1 { font-size: 2.5em; color: #ffd700; margin: 0; letter-spacing: 3px; }
+        header p { font-size: 1.1em; color: #cccccc; margin-top: 10px; }
+
+        .menu-section { padding: 30px 20px; display: flex; flex-direction: column; align-items: center; gap: 15px; }
+        
+        .category-btn { background-color: #1a1a1a; color: #ffffff; width: 100%; max-width: 300px; padding: 20px; text-align: center; border: 1px solid #ffd700; border-radius: 8px; text-decoration: none; font-size: 1.2em; font-weight: bold; transition: 0.3s; }
+        .category-btn:hover { background-color: #ffd700; color: #000; }
+
+        footer { text-align: center; padding: 30px; margin-top: 50px; color: #666; font-size: 0.9em; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>SwiftPick</h1> 
-    <h2> welcome to swift pick </h2>
-    <p>Premium Gadgets & Lifestyle Accessories</p>
+    <h1>SwiftPick</h1>
+    <p>Excellence in Every Delivery</p>
 </header>
 
-<div class="container">
-    <div class="product-card">
-        <div class="product-img">Image Here</div>
-        <h3>Smart Watch</h3>
-        <a href="https://wa.me/923187727803" class="btn">Order Now</a>
-    </div>
-
-    <div class="product-card">
-        <div class="product-img">Image Here</div>
-        <h3>Bluetooth Buds</h3>
-        <a href="https://wa.me/923187727803" class="btn">Order Now</a>
-    </div>
-
-    <div class="product-card">
-        <div class="product-img">Image Here</div>
-        <h3>Stylish Shoes</h3>
-        <a href="https://wa.me/923187727803" class="btn">Order Now</a>
-    </div>
-
-    <div class="product-card">
-        <div class="product-img">Image Here</div>
-        <h3>Comfort Chappal</h3>
-        <a href="https://wa.me/923187727803" class="btn">Order Now</a>
-    </div>
+<div class="menu-section">
+    <a href="https://wa.me/923187727803?text=Hi, I want to check your Footwear collection." class="category-btn">Footwear</a>
+    <a href="https://wa.me/923187727803?text=Hi, I want to check your Watches collection." class="category-btn">Watches</a>
+    <a href="https://wa.me/923187727803?text=Hi, I want to check your Gadgets collection." class="category-btn">Gadgets</a>
+    <a href="https://wa.me/923187727803?text=Hi, I have a general inquiry." class="category-btn">Contact Support</a>
 </div>
+
+<footer>
+    &copy; 2026 SwiftPick. All Rights Reserved.
+</footer>
 
 </body>
 </html>
